@@ -15,7 +15,6 @@ import pickle
 import io
 import base64
 import feat_extractor
-from collections import Counter
 
 #defining pre-trained models path
 cnn_path = "./models/lk_final_v2_20k_hsv_vgg19.pt"

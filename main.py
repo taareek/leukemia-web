@@ -13,18 +13,13 @@ app.mount("/images", StaticFiles(directory= "images"), name="images")
 app.mount("/static", StaticFiles(directory= "static"), name="static")  
 template = Jinja2Templates(directory= "templates")   
 
-
-# @app.get("/")
-# def read_root():
-#     return {"Quote": "What Allah does, it is a great decision and it has a postive impact"}
-
 @app.get("/")
 def home(request: Request):
     return template.TemplateResponse("prediction.html", {"request":request})
 
 @app.post("/")
 def demo_home(request: Request, file:UploadFile= File(...)):
-    # return template.TemplateResponse("prediction.html", {"request":request})
+    
     result = None
     error = None
 
