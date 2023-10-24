@@ -51,9 +51,9 @@ def img_transformation(input_img):
         transforms.Resize((224,224)),
         transforms.RandomHorizontalFlip(p=0.25),
         transforms.RandomVerticalFlip(p=0.25),
-        transforms.RandomRotation((0,180)),
-        transforms.CenterCrop(150),
-        transforms.Resize((224,224)),
+        # transforms.RandomRotation((0,180)),
+        # transforms.CenterCrop(150),
+        # transforms.Resize((224,224)),
         transforms.ToTensor(),
         transforms.Normalize(torch.Tensor(mean), torch.Tensor(std))
                             ])
