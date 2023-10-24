@@ -16,7 +16,7 @@ Follow the output URL to access the web application.
 ### Test Images
 To facilitate real-time evaluation of this system, we have provided a set of test data. You can access the test images through the following link:
 ```
-
+https://drive.google.com/drive/folders/17KnWCdDVS2kcBu1nuxjntVC3MrnRPYLK?usp=sharing
 ```
-All of these images are test images which are totally unseen to the model. 
+All of these images serve as test data and are completely unseen by the model.
 
