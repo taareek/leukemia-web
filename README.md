@@ -13,11 +13,11 @@ uvicorn main:app --reload
 ``` 
 Follow the output URL to access the web application.
 
-### Test Images
+### Test System with Input Images
 To facilitate real-time evaluation of this system, we have provided a set of test data. You can access the test images through the following link:
-```
-[test image folder](https://drive.google.com/drive/folders/17KnWCdDVS2kcBu1nuxjntVC3MrnRPYLK?usp=sharing/)
-```
+
+* [test image folder](https://drive.google.com/drive/folders/17KnWCdDVS2kcBu1nuxjntVC3MrnRPYLK?usp=sharing/)
+
 All of these images serve as test data and are completely unseen by the model. There are two subfolders: **ALL** and **HEM**, representing the classes.**HEM** contains healthy cells, while **ALL** contains leukemia cells. This system generates an output Grad-CAM image and predicts the class along with its corresponding probability for a given input test image.
 
 
