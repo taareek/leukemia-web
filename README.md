@@ -20,4 +20,5 @@ To facilitate real-time evaluation of this system, we have provided a set of tes
 
 All of these images serve as test data and are completely unseen by the model. There are two subfolders: **ALL** and **HEM**, representing the classes.**HEM** contains healthy cells, while **ALL** contains leukemia cells. This system generates an output Grad-CAM image and predicts the class along with its corresponding probability for a given input test image.
 
-
+## Demo
+We have provided a demo video that shows the functionality of our developed CAD system for Acute Lyphoblastic Leukemia classification. 
